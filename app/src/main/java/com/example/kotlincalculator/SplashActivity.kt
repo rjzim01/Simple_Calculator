@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.widget.Toast
 
 class SplashActivity : AppCompatActivity() {
 
@@ -18,6 +19,6 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
             finish()
-        },3000)
+        },2000)
     }
 }
